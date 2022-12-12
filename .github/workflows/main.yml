@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: jr0013909/dockerdevtestbot@v1
+      - uses: jr0013909/dockerdevtestbot
         with:
           tag: "latest"
           message: "Latest release"
